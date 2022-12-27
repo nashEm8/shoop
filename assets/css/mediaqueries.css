@@ -1,0 +1,181 @@
+@media screen and (max-width: 1500px) {
+    a.nav-link{
+        font-size: 20px;
+    }
+
+    .carousel-caption p{
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 990px) and (max-width: 1500px) {
+    /* --------------- PRODUTOS --------------- */
+    .card img{
+        height: 300px;
+    }
+
+    p.card-text, .text-price, .btn-group button{
+        font-size: 18px;
+    }
+
+    /* --------------- EQUIPE --------------- */
+    #equipe h1, .parte2{
+        padding: 80px 0;
+    }
+
+    .parte1, .parte2, .parte3,
+    .parte1 a, .parte2 a, .parte3 a{
+        font-size: 20px;
+    }
+
+    /* --------------- SOBRE --------------- */
+    .img-sobre{
+        padding: 20px 0;
+    }
+
+    /* --------------- RODAPE --------------- */
+    #rodape.container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .infor-rodape div:nth-child(2){
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 750px) and (max-width: 990px) {
+    /* --------------- CAROUSEL --------------- */
+    .carousel-caption{
+        height: 350px;
+        top: 200px;
+    }
+
+    .carousel-caption p{
+        font-size: 25px;
+    }
+
+    /* --------------- PRODUTOS --------------- */
+    #produtos{
+        padding: 80px 0;
+    }
+
+    .card img{
+        height: 500px;
+    }
+
+    p.card-text, .text-price, .btn-group button{
+        font-size: 25px;
+        color: #ff0000;
+    }
+
+    /* --------------- EQUIPE --------------- */
+    #equipe h1, .parte2{
+        padding: 80px 0;
+    }
+
+    .parte1, .parte2, .parte3,
+    .parte1 a, .parte2 a, .parte3 a{
+        font-size: 25px;
+    }
+
+    /* --------------- SOBRE --------------- */
+    .img-sobre{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0;
+    }
+
+    .texto-sobre{
+        font-size: 25px;
+    }
+
+    /* --------------- RODAPE --------------- */
+    #rodape.container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #rodape .infor-rodape{
+        font-size: 30px;
+    }
+
+    .infor-rodape div:nth-child(2){
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 750px){
+    /* --------------- CAROUSEL --------------- */
+    .carousel-caption{
+        height: 350px;
+        top: 200px;
+    }
+
+    .carousel-caption p{
+        font-size: 25px;
+    }
+
+    /* --------------- PRODUTOS --------------- */
+    #produtos{
+        padding: 80px 0;
+    }
+
+    .card img{
+        height: 500px;
+    }
+
+    p.card-text, .text-price, .btn-group button{
+        font-size: 25px;
+    }
+
+    /* --------------- EQUIPE --------------- */
+    #equipe h1, .parte2{
+        padding: 80px 0;
+    }
+
+    .parte1, .parte2, .parte3,
+    .parte1 a, .parte2 a, .parte3 a{
+        font-size: 25px;
+    }
+
+    /* --------------- SOBRE --------------- */
+    .img-sobre{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0;
+    }
+
+    .texto-sobre{
+        font-size: 25px;
+    }
+
+    /* --------------- RODAPE --------------- */
+    #rodape.container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #rodape .infor-rodape{
+        font-size: 30px;
+    }
+
+    .infor-rodape div:nth-child(2){
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+    }
+}

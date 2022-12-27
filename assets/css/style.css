@@ -1,0 +1,178 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none !important;
+	font-family: azoRegular;
+	scroll-behavior: smooth;
+}
+
+@font-face {
+	font-family: azoRegular;
+	src: url(../fonts/AzoSans-Regular.otf);
+}
+
+@font-face {
+	font-family: azoLight;
+	src: url(../fonts/AzoSans-Light.otf);
+}
+
+@font-face{
+	font-family: azoBlack;
+	src: url(../fonts/AzoSans-Black.otf);
+}
+
+
+/* --------------------------- Barra de navegação ------------------------------- */
+nav img{
+	width: 140px;
+}
+
+.dropdown-menu li a{
+	color: #0092f7;
+}
+
+.dropdown-menu li:hover a{
+	background-color: #0092f7;
+	color: #fff;
+}
+
+.navbar-toggler-icon img{
+	width: 40px;
+}
+
+/* --------------------------- Carousel ------------------------------- */
+#myCarousel .carousel-inner, #myCarousel .carousel-item{
+	height: 100vh;
+}
+
+.carousel-control-prev, .carousel-control-next{
+	cursor: pointer;
+	background-color: transparent;
+	color: #ccc;
+	border: 0;
+}
+
+.carousel-caption{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	top: 50%;
+}
+
+.carousel-caption h1{
+	color: #007cd2;
+	font-size: 50px;
+	text-shadow: 1px 1px #000;
+	margin-bottom: 20px;
+}
+
+.carousel-caption p{
+	color: #000;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
+.carousel-caption p a{
+	background-color: #007cd2;
+	border: 2px solid #007cd2;
+	padding: 10px 15px;
+	border-radius: 5px;
+	color: #fff;
+}
+
+.carousel-caption p:hover a{
+	background-color: transparent;
+	color: #007cd2;
+}
+
+/* --------------------------- Produtos ------------------------------- */
+#produtos{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 50px 0;
+}
+
+#produtos h2{
+	text-transform: uppercase;
+}
+
+.card img{
+	width: 100%;
+	height: 250px;
+}
+
+p.card-text{
+	font-family: azoLight;
+	font-size: 15px;
+}
+
+/* --------------------------- Equipe ------------------------------- */
+#equipe{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	padding: 50px 0;
+}
+
+#equipe .col-lg-4{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#equipe .col-lg-4 p{
+	text-align: center;
+}
+
+#equipe .col-lg-4 h2{
+	margin: 20px 0;
+}
+
+#equipe .col-lg-4 p a{
+	background-color: #007cd2;
+	color: #fff;
+	border: 0;
+}
+
+/* --------------------------- Sobre ------------------------------- */
+#sobre{
+	padding: 100px 0;
+}
+
+.img-sobre img{
+	width: 300px;
+}
+
+.texto-sobre{
+	text-align: justify;
+}
+
+/* --------------------------- Rodapé ------------------------------- */
+#rodape{
+	padding: 20px 0;
+}
+
+.infor-rodape{
+	display: flex;
+	justify-content: space-between;
+	font-size: 20px;
+	color: #fff;
+	text-align: left;
+}
+
+.infor-rodape div:nth-child(2){
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	text-align: right;
+	float: right;
+}
+
+.infor-rodape div:nth-child(2) i{
+	color: #fff;
+	padding: 0 0 0 10px;
+}
